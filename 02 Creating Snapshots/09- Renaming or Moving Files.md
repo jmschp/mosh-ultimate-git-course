@@ -37,9 +37,9 @@ Then we commit the changes:
 
 ```zsh
 ❯ git commit -m 'Rename file'
-[main eac0f41] Rename file
- 1 file changed, 1 insertion(+)
- rename 02 Creating Snapshots/{09- Renaming or Moving.md => 09- Renaming or Moving Files.md} (99%)
+[main aec2762] Rename file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename 02 Creating Snapshots/{09- Renaming or Moving Files.md => 09- Renaming or Moving.md} (100%)
 ```
 
 ```zsh
