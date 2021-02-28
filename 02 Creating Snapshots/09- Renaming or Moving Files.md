@@ -20,3 +20,4 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 We have to changes and both are unstaged. One that is a delete operation, and a new untracked file.
 
+If we 
