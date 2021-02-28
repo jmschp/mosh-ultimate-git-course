@@ -22,7 +22,7 @@ To add files to the staging area we use the `git add` command:
 git add file1 file2
 ```
 
-We can add multiple files at the same time or use `git add .` to add all files that have been changed.
+We can add multiple files at the same time or use `git add .` to add all files, that have been changed, in the current directory recursively.
 
 ### git commit
 
