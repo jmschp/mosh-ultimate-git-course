@@ -3,6 +3,7 @@
 Now that we have files in the **Staging Area**, we can commit them to the repository, with the command `git commit -m "My commit message"`
 
 ```zsh
+❯ git status
 On branch main
 
 Changes to be committed:
@@ -41,7 +42,7 @@ In the first line we add a short description, ideal less than 80 characters, the
 
 Example detailed commit:
 
-````zsh
+```zsh
 Continuing lesson 5 Committing Changes
 
 Adding more details to the lesson number 5 Committing Changes of section 2 Creating Snapshots of the course The Ultimate Git Course.
@@ -86,5 +87,4 @@ index 10da8dc..21c6f07 100644
 +
 +When a short, one line, message is not sufficient, because we need to explain in detail the changes that where made we can use the command `git commit`, without the `-m "My message"` part. These will open the default editor.
 \ No newline at end of file
-
-````
+```

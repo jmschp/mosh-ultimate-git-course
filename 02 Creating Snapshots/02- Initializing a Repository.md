@@ -6,7 +6,10 @@ Create a directory and put it any where. In may case `/Users/jmschp/code/mosh-ul
 
 Inside the directory run `git init`. This command should return the following message:
 
-> Initialized empty Git repository in /Users/jmschp/code/mosh-ultimate-git-course/.git/
+```zsh
+❯ git init
+Initialized empty Git repository in /Users/jmschp/code/mosh-ultimate-git-course/.git/
+```
 
 Inside our project folder the command `git init` as created a folder `.git`, by default it is hidden because we are not supposed to touch it. With the command `ls -a` we can see the git sub directory.
 

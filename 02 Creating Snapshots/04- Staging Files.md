@@ -7,6 +7,7 @@ We can run the `git status` command to see the status of the **Working Directory
 The output will be something like these:
 
 ```zsh
+❯ git status
 On branch main
 
 Untracked files:
@@ -35,6 +36,7 @@ These will add all the files with an `.md` extension.
 Now if we run `git status` again, we will have the following output:
 
 ```zsh
+❯ git status
 On branch main
 
 Changes to be committed:
@@ -45,6 +47,7 @@ Changes to be committed:
 If we make changes to the same file, after adding it to the **Staging Area** and run `git status`, we will have the following output:
 
 ```zsh
+❯ git status
 On branch main
 
 Changes to be committed:
@@ -62,6 +65,7 @@ We have the same file in the **Staging Area** and also marked as modified, and n
 We can run `git add` one more time to add our changes to the **Staging Area**.
 
 ```zsh
+❯ git status
 On branch main
 Your branch is up to date with 'origin/main'.
 

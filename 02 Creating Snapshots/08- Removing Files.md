@@ -52,6 +52,7 @@ Even after deleting `text.txt` from the **Working Directory** it still exist in 
 Use `git add test.txt` to add that file to the staging area, to be committed.
 
 ```zsh
+❯ git status
 On branch main
 
 Changes to be committed:
@@ -67,7 +68,7 @@ Changes not staged for commit:
 And now `git commit -m "Delete unnecessary file"`.
 
 ```zsh
-git commit -m "Delete unnecessary file"
+❯ git commit -m "Delete unnecessary file"
 [main 632354b] Delete unnecessary file
  1 file changed, 0 insertions(+), 0 deletions(-)
  delete mode 100644 test.txt
