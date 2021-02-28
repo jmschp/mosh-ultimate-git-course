@@ -33,3 +33,15 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ```
+
+Now we must add and commit the `.gitignore` to the repository.
+
+This only works if the file or directory to be ignored has not been included in the repository. If by accident we included a file in the repository and only later add it to `.gitignore`, Git is not going to ignore it, because it is already in the repository.
+
+To ignore first we have to remove it from the **Staging Area**, with the `git rm --cached`. So lets suppose we had added the `logs/` folder the repository by accident. We can run:
+
+```zsh
+git rm --cached -r logs/
+```
+
+And them commit the changes. The `-r` flag is to allow recursive removal.
