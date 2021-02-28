@@ -19,5 +19,17 @@ To ignore files we must create a special file called `.gitignore` in the root of
 
 We can include as many files or folder we want and use patterns as well like `*.log` to include all log files.
 
-In this case we add the folder `logs/` to `.gitignore`.
+In this case we add the folder `logs/` to `.gitignore`. Now if we run `git status` we will no longer see the `logs/` folder, Instead it marks a new file `.gitignore`.
 
+```zsh
+❯ git status
+On branch main
+Your branch is ahead of 'origin/main' by 14 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
