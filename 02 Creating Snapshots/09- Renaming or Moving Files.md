@@ -20,4 +20,30 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 We have to changes and both are unstaged. One that is a delete operation, and a new untracked file.
 
-If we 
+If we both files to the staging area and run `git status` one more time, we will see the following output:
+
+```zsh
+❯ git status
+On branch main
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	renamed:    02 Creating Snapshots/09- Renaming or Moving.md -> 02 Creating Snapshots/09- Renaming or Moving Files.md
+```
+
+Git recognizes that we renamed the file ank marks it as renamed. Like in the delete operation, there is a Git command to rename files:
+
+Then we commit the changes:
+
+```zsh
+❯ git commit -m 'Rename file'
+[main eac0f41] Rename file
+ 1 file changed, 1 insertion(+)
+ rename 02 Creating Snapshots/{09- Renaming or Moving.md => 09- Renaming or Moving Files.md} (99%)
+```
+
+```zsh
+git mv <current file> <new name>
+```
+
+When we use the `git mv` command the changes are applied to both the **Working Directory** and the **Staging Area**.
