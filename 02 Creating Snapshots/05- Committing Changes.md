@@ -19,6 +19,16 @@ git commit -m 'New lesson started'
  create mode 100644 02 Creating Snapshots/05- Committing Changes.md
 ```
 
+If we commit to more than one file, we will se the following message:
+
+```zsh
+git commit -m 'Lesson completed'
+[main bc32e03] Lesson completed
+ 2 files changed, 25 insertions(+)
+ create mode 100644 02 Creating Snapshots/06- Committing Best Practices.md
+ create mode 100644 02 Creating Snapshots/07- Skipping the Staging Area.md
+```
+
 When a short, one line, message is not sufficient, because we need to explain in detail the changes that where made we can use the command `git commit`, without the `-m "My message"` part. These will open the default editor with a file named `COMMIT_EDITMSG`.
 
 In the first line we add a short description, ideal less than 80 characters, then we addd a line break and the more detail message. After we save and close the file the changes are committed. And we will hae in the terminal and ouput like the following:
