@@ -13,7 +13,7 @@ Changes to be committed:
 With the command `git commit -m "New lesson started"` a snapshot will be saved to the repository.
 
 ```zsh
-git commit -m 'New lesson started'
+❯ git commit -m 'New lesson started'
 [main cb4a472] New lesson started
  1 file changed, 4 insertions(+)
  create mode 100644 02 Creating Snapshots/05- Committing Changes.md
@@ -22,7 +22,7 @@ git commit -m 'New lesson started'
 If we commit to more than one file, we will se the following message:
 
 ```zsh
-git commit -m 'Lesson completed'
+❯ git commit -m 'Lesson completed'
 [main bc32e03] Lesson completed
  2 files changed, 25 insertions(+)
  create mode 100644 02 Creating Snapshots/06- Committing Best Practices.md
@@ -34,7 +34,7 @@ When a short, one line, message is not sufficient, because we need to explain in
 In the first line we add a short description, ideal less than 80 characters, then we addd a line break and the more detail message. After we save and close the file the changes are committed. And we will hae in the terminal and ouput like the following:
 
 ```zsh
-git commit
+❯ git commit
 [main e0a1a79] Continuing lesson 5 Committing Changes
  1 file changed, 18 insertions(+)
 ```
