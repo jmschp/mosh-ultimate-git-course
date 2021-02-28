@@ -45,3 +45,5 @@ git rm --cached -r logs/
 ```
 
 And them commit the changes. The `-r` flag is to allow recursive removal.
+
+In GitHub repository [gitignore](https://github.com/github/gitignore) we can see a list of `.gitignore` templates for different programming languages.
