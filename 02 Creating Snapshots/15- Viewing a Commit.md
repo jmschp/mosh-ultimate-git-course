@@ -36,10 +36,10 @@ If we want to see all the files and directories in a commit we use `ls-tree`. A 
 
 ```zsh
 ❯ git ls-tree HEAD~1
-100644 blob 333c1e910a3e2bef1b9d0d4587392627d8388974	.gitignore
-040000 tree 4c24e363fb92a146d90b33f5e6be484eda876cb1	01 Getting Started
-040000 tree fedd8b67c40b90365ca1b2fc1357b15a56b8c9b6	02 Creating Snapshots
-100644 blob abefdb35d01f55ffdabca93f53748b84f9d10e14	README.md
+100644 blob 333c1e910a3e2bef1b9d0d4587392627d8388974    .gitignore
+040000 tree 4c24e363fb92a146d90b33f5e6be484eda876cb1    01 Getting Started
+040000 tree fedd8b67c40b90365ca1b2fc1357b15a56b8c9b6    02 Creating Snapshots
+100644 blob abefdb35d01f55ffdabca93f53748b84f9d10e14    README.md
 ```
 
 Files are represented using `blob` and directories are represented by `tree`. All of theses are object saved in git database. The `333c1e910a3e2bef1b9d0d4587392627d8388974` is a unique identifier of the corresponding file. We can use this identifier to vew the content of the file.
