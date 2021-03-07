@@ -56,4 +56,19 @@ Lost commit.
 
 ![lost commit](./images/09-05.png "detached HEAD state")
 
-If we run `git log --all` command while in a detached `HEAD` state we can see the `master`(main in my case) pointing to the last commit and `HEAD` point to the specific commit.
+If we run `git log --oneline --all` command while in a detached `HEAD` state we can see the `master`(main in my case) pointing to the last commit and `HEAD` point to the specific commit. If we use `git log --oneline` without the the `--all` flag, we will not see the commits after made after the commit `HEAD` is pointing to.
+
+```zsh
+ebbd4b1 (main) add details to lesson
+66cf5ab add details to lesson
+2ee3bb6 add details to lesson
+18869aa lesson complete
+f2150f7 (HEAD) lesson complete
+4acfee7 lesson complete
+dd6b4b2 fix: typo
+b9e25df start new lesson
+9f61863 style: change tab to spaces
+[...]
+```
+
+To attache the `HEAD` pointer to the branch, use `git checkout <name of the branch>` in this case `git checkout main`.
