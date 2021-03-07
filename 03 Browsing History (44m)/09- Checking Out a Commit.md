@@ -25,7 +25,9 @@ Turn off this advice by setting config variable advice.detachedHead to false
 HEAD is now at b9e25df start new lesson
 ```
 
-In Git each commit is pointing to the last commit That is ou Git maintains history.
+## Detached HEAD state
+
+In Git each commit is pointing to the last commit. That is how Git maintains history.
 
 ![Commit history](./images/09-01.png "Commit history")
 
@@ -53,3 +55,5 @@ In this situation we should not create new commits. If we make changes and creat
 Lost commit.
 
 ![lost commit](./images/09-05.png "detached HEAD state")
+
+If we run `git log --all` command while in a detached `HEAD` state we can see the `master`(main in my case) pointing to the last commit and `HEAD` point to the specific commit.
