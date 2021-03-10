@@ -18,7 +18,11 @@ To view all the available branch run `git branch`
 * main
 ```
 
+<<<<<<< HEAD
 The `*` in front of the **_main_** means that at the momment we are in that branch. It is also possible to view the current branch with `git status`.
+=======
+The `*` in front of the **_main_** means that at the moment we are in that branch. It is also possible to view the current branch with `git status`.
+>>>>>>> main
 
 ## Change branches
 
@@ -56,4 +60,12 @@ If we switch back to **_main_** our **Working Directory** will be restored to th
 
 ## Delete a brach `-d` or `-D`
 
-To delete a branch we use the `-d` option, but if this branch as unmerged changes with master, Git will throw an error warning us
+To delete, first we need to change to a different branch usually ***main***, then we use the `-d` option, but if this branch as unmerged changes with ***main***, Git will throw an error warning us.
+
+```zsh
+❯ git branch -d bugfix-signup-form
+error: The branch 'bugfix-signup-form' is not fully merged.
+If you are sure you want to delete it, run 'git branch -D bugfix-signup-form'.
+```
+
+To force the deletion use the `git branch -D bugfix-signup-form`.
