@@ -17,4 +17,4 @@ It is also possible to use the `--oneline` option, `git log --oneline main..bugf
 
 ## See differences
 
-To compare the actual changes between branches we use the `diff` command, like so `git diff main..bugfix-lesson`.
+To compare the actual changes between branches we use the `diff` command, like so `git diff main..bugfix-lesson`. This will produce an output just like the normal `diff`, but comparing the two branches.
