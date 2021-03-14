@@ -26,6 +26,17 @@ To merge the ***`fast-forward-merge`*** branch into ***`main`***, we first shoul
 git merge fast-forward-merge
 ```
 
+After we can run `git log` to see the result. As we can see in the log now both branches point to the same commit.
+
+```zsh
+* 3c5127f (HEAD -> main, origin/main, fast-forward-merge) add details to lesson
+* 8c79b5d add details to lesson
+* 23c694d add details to lesson
+* 6d91b25 add details to lesson
+* 932b8dd lesson complete
+* 1433f35 lesson complete
+```
+
 ## Merge without fast-forward `--no-ff`
 
 It is also possible to enforce a non fast-forward merge with the command:
