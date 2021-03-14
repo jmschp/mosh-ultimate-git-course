@@ -49,3 +49,11 @@ With this we tell Git that, although it is possible to have a fast-forward merge
 
 Here as well we can see the ***`no-fast-forward-merge`***, branch is one commit ahead of ***`main`*** and there is a linear path between them.
 
+```zsh
+* 2694107 (HEAD -> no-fast-forward-merge) add details to lesson
+* d8fbb20 (origin/main, main) add details to lesson
+* 3c5127f add details to lesson
+* 8c79b5d add details to lesson
+* 23c694d add details to lesson
+* 6d91b25 add details to lesson
+```
