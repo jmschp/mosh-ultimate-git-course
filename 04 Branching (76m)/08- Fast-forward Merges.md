@@ -22,3 +22,5 @@ To have a better visualizations of branches with `git log`, it is better to incl
 * b89cef8 lesson complete
 [...]
 ```
+
+## Merge branch
