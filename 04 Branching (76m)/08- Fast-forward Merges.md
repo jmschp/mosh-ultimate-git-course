@@ -5,22 +5,23 @@
 To have a better visualizations of branches with `git log`, it is better to include the `--graph` option. It will produce an output where we are abe to better view the branch path.
 
 ```zsh
-❯ git log oneline --graph
-[...]
-* 6572ee7 add details to lesson
-*   3f0416c (origin/main, main) Merge branch 'main' into bugfix-signup-form
-|\
-| * 11f8264 start new lesson
-* | 27324f4 add details to lesson
-* | db8b63d lesson complete
-|\|
-| * 7718a7f lesson complete
-* | 987c5be add details to lesson
-* | 54bb974 start new lesson
-|/
-* 6d5df20 lesson complete
-* b89cef8 lesson complete
+❯ git log --oneline --graph
+* 23c694d (HEAD -> fast-forward-merge) add details to lesson
+* 6d91b25 (origin/main, main) add details to lesson
+* 932b8dd lesson complete
+* 1433f35 lesson complete
+* 6d7a701 style: add final empty line
+* 18c119d lesson start
+* 176761d lesson completed
 [...]
 ```
 
+In this log we can see that the branch ***`fast-forward-merge`*** is one commit ahead of ***`main`***, and that there is a linear path between them.
+
 ## Merge branch
+
+To merge the ***`fast-forward-merge`*** branch into ***`main`***, we first should have committed all of our work in that branch and them we switch to ***`main`***. In the ***`main`*** branch we run the merge with the command:
+
+```zsh
+git merge fast-forward-merge
+```
