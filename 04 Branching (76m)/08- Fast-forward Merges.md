@@ -46,3 +46,6 @@ git merge --no-ff no-fast-forward-merge
 ```
 
 With this we tell Git that, although it is possible to have a fast-forward merge, don't do it, and that it should create a new commit to merge ***`main`*** with another branch.
+
+Here as well we can see the ***`no-fast-forward-merge`***, branch is one commit ahead of ***`main`*** and there is a linear path between them.
+
