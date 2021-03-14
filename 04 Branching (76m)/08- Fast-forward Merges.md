@@ -16,12 +16,22 @@ To have a better visualizations of branches with `git log`, it is better to incl
 [...]
 ```
 
-In this log we can see that the branch ***`fast-forward-merge`*** is one commit ahead of ***`main`***, and that there is a linear path between them.
+In this log we can see that the branch ***`fast-forward-merge`*** is one commit ahead of ***`main`***, and that there is a linear path between them. So the could merger by the fast-forward method.
 
-## Merge branch
+## Merge branch fast-forward
 
 To merge the ***`fast-forward-merge`*** branch into ***`main`***, we first should have committed all of our work in that branch and them we switch to ***`main`***. In the ***`main`*** branch we run the merge with the command:
 
 ```zsh
 git merge fast-forward-merge
 ```
+
+## Merge without fast-forward `--no-ff`
+
+It is also possible to enforce a non fast-forward merge with the command:
+
+```zsh
+git merge --no-ff no-fast-forward-merge
+```
+
+With this we tell Git that, although it is possible to have a fast-forward merge, don't do it, and that it should create a new commit to merge ***`main`*** with another branch.
