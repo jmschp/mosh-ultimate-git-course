@@ -24,7 +24,7 @@ Here I have switched to ***`main`*** and made 2 commits. So now the ***`main`***
 
 ```zsh
 ❯ git log --oneline --graph
-* e81cc69 (origin/main, main) add lesson title
+* e81cc69 (main) add lesson title
 * b9063c7 add file for lesson
 | * 08e6d5e (HEAD -> 3-way-merge) add details to lesson
 |/
