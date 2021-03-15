@@ -40,4 +40,27 @@ Here I have switched to ***`main`*** and made 2 commits. So now the ***`main`***
 [...]
 ```
 
-Now when we run a merge Git will run a 3-way-merge.
+Now when we run a merge Git will run a 3-way-merge. It will open the default editor with a commit message, when add more details if needed to the commit message.
+
+```zsh
+❯ git log --oneline --graph
+*   e26d5a7 (HEAD -> main) Merge branch '3-way-merge'
+|\
+| * 2f37a10 (3-way-merge) add lesson title
+| * c99eb28 add file for lesson
+| * 08e6d5e add details to lesson
+* | e81cc69 add lesson title
+* | b9063c7 add file for lesson
+|/
+* 2827b4c add details to lesson
+* 80a0972 add details to lesson
+*   afba0c3 Merge branch 'no-fast-forward-merge'
+|\
+| * 00a98bb add details to lesson
+| * 9aff663 add details to lesson
+| * 2694107 add details to lesson
+|/
+* d8fbb20 add details to lesson
+```
+
+In the log we can see the merge commit.
