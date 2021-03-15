@@ -63,4 +63,4 @@ Now when we run a merge Git will run a 3-way-merge. It will open the default edi
 * d8fbb20 add details to lesson
 ```
 
-In the log we can see the merge commit.
+In the log we can see the merge commit. After a merge we can deleted the merged branch ***`3-way-merge`***, in this case.
