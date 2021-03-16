@@ -88,5 +88,5 @@ The new branch for this example called ***`no-fast-forward-merge`***, was create
 
 It is possible to disable fast-forward merges, that way all mergers Git performs will be non fast-forward, even if it is possible to have a fast forward merge.
 
-1. Disable for a single repository: `git config ff no`
-2. Disable globally `git config --global ff no`
+1. Disable for a single repository: `git config merge.ff false`
+2. Disable globally `git config --global merge.ff false`

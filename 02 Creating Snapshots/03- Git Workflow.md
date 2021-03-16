@@ -4,7 +4,7 @@
 
 In the daily work, we modify one or more files. When we believe that we reach a point that we want to record we commit those changes into the repository. Creating a commit it is like taking a snapshot of our project.
 
-In Git there is a special area, an intermedial area, between the working directory and the repository. Its called the **Staging** or **Index** area. Files in these are are the one that will be in the next coommit.
+In Git there is a special area, an intermedial area, between the ***Working Directory*** and the ***Repository***. Its called the ***Staging*** or ***Index*** area. Files in these are are the one that will be in the next coommit.
 
 ![Git workflow](./images/03-01.png "Git workflow")
 
