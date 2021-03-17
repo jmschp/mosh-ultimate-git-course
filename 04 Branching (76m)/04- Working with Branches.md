@@ -18,11 +18,7 @@ To view all the available branch run `git branch`
 * main
 ```
 
-<<<<<<< HEAD
-The `*` in front of the **_main_** means that at the momment we are in that branch. It is also possible to view the current branch with `git status`.
-=======
 The `*` in front of the **_main_** means that at the moment we are in that branch. It is also possible to view the current branch with `git status`.
->>>>>>> main
 
 ## Change branches
 
