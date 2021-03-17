@@ -11,7 +11,7 @@ After a merge we have the **_`main`_** and **_`HEAD`_** pointers, pointing to th
 
 ![Merge commit](./images/14-01.png "Merge commit")
 
-With the reset command we will move both pointers to the last commit before the merge.
+With the reset command we will move both pointers to the last commit before the merge. And remove the merge commit.
 
 ![Parent merge commit](./images/14-02.png "Parent merge commit")
 
@@ -21,7 +21,7 @@ Run the command:
 git reset --hard HEAD~1
 ```
 
-After we run the command the merge commit does not have any commit or pointer pointing to it. So for Git this garbage, onde in a while Git looks for commits like this and removes them.
+After we run the command the merge commit does not have any commit or pointer pointing to it. So for Git this garbage, once in a while Git looks for commits like this and removes them.
 
 ### Resting the **_`HEAD`_** options
 
