@@ -30,5 +30,7 @@ With the command `git branch -vv` we can se how the remote and local branches ar
 
 ```zsh
 ❯ git branch -vv
-* main a1929cf [origin/main: ahead 1] lesson complete
+* main bbe3812 [origin/main: ahead 2] add details to lesson
 ```
+
+In the above output from the `git branch -vv` we can see that our local **_`main`_** branch is connect to the remote **_`origin/main`_** branch. And the local branch is ahead by 2 commits.
