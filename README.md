@@ -2,7 +2,7 @@
 
 [![The Ultimate Git Course](https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/tsmP4fdkSmKaiez6t2jl "The Ultimate Git Course")](https://codewithmosh.com/p/the-ultimate-git-course "The Ultimate Git Course")
 
-### Introduction
+## Introduction
 
 This repository was made while studying with [Mosh Hamedani](https://programmingwithmosh.com/ "Programming with Mosh"), in [Code with Mosh](https://codewithmosh.com/ "Code with Mosh"). And it contains all my notes from the course. It can be used as an extensive Git cheatsheet.
 
@@ -17,26 +17,26 @@ This repository was made while studying with [Mosh Hamedani](https://programming
 
 #### Getting Started (15m)
 
-1.  Introduction (0:39)
-2.  How to Take This Course (0:51)
-3.  What is Git (2:31)
-4.  Using Git (3:03)
-5.  Installing Git (1:27)
-6.  Configuring Git (5:04)
-7.  Getting Help (0:51)
-8.  Cheat Sheet (0:29)
+1. Introduction (0:39)
+2. How to Take This Course (0:51)
+3. What is Git (2:31)
+4. Using Git (3:03)
+5. Installing Git (1:27)
+6. Configuring Git (5:04)
+7. Getting Help (0:51)
+8. Cheat Sheet (0:29)
 
 #### Creating Snapshots (60m)
 
-1.  Introduction (0:34)
-2.  Initializing a Repository (2:32)
-3.  Git Workflow (4:35)
-4.  Staging Files (3:37)
-5.  Committing Changes (2:13)
-6.  Committing Best Practices (1:59)
-7.  Skipping the Staging Area (1:24)
-8.  Removing Files (2:02)
-9.  Renaming or Moving Files (2:17)
+1. Introduction (0:34)
+2. Initializing a Repository (2:32)
+3. Git Workflow (4:35)
+4. Staging Files (3:37)
+5. Committing Changes (2:13)
+6. Committing Best Practices (1:59)
+7. Skipping the Staging Area (1:24)
+8. Removing Files (2:02)
+9. Renaming or Moving Files (2:17)
 10. Ignoring Files (6:34)
 11. Short Status (2:52)
 12. Viewing Staged and Unstaged Changes (4:59)
