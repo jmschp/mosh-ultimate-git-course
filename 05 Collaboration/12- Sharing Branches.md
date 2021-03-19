@@ -27,7 +27,21 @@ The error message **_`The current branch bugfix has no upstream branch.`_** mean
 To set the remote tracking branch we run the command Git suggested `git push --set-upstream origin <name-of-branch>`, we can abbreviate the option `--set-upstream` to `-u`.
 
 ```zsh
-git push -u origin bugfix
+❯ git push -u origin bugfix
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.56 KiB | 1.56 MiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'bugfix' on GitHub by visiting:
+remote:      https://github.com/jmschp/mosh-ultimate-git-course/pull/new/bugfix
+remote:
+To https://github.com/jmschp/mosh-ultimate-git-course.git
+ * [new branch]      bugfix -> bugfix
+Branch 'bugfix' set up to track remote branch 'bugfix' from 'origin'.
 ```
 
 And them again `git branch -vv` to see the result.
@@ -40,8 +54,16 @@ And them again `git branch -vv` to see the result.
 
 ## Delete a branch from **Remote Repository**
 
-To delete a branch from the **Remote Repository** we run `git push -d origin <name-of-branch>`.
+To delete a branch from the **Remote Repository** we run `git push -d origin <name-of-branch>`. This will only detete the branch in the **Remote Repository**, it will still be available in the **Local Repository**.
 
 ```zsh
 git push -d origin bugfix
+```
+
+We can check with `git branch -vv`.
+
+```zsh
+❯ gb -vv
+* bugfix 133c99c [origin/bugfix: gone] add details to lesson
+  main   9edbb2f [origin/main] lesson complete
 ```
