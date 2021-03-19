@@ -24,7 +24,9 @@ The error message **_`The current branch bugfix has no upstream branch.`_** mean
   main   9edbb2f [origin/main] lesson complete
 ```
 
-To set the remote tracking branch we run the command Git suggested `git push --set-upstream origin <name-of-branch>`, we can abbreviate the option `--set-upstream` to `-u`.
+To set the remote tracking branch we run the command Git suggested `git push --set-upstream origin <name-of-branch>`, we only have to pass `--set-upstream` option the first time.
+
+We can abbreviate the option `--set-upstream` to `-u`.
 
 ```zsh
 ❯ git push -u origin bugfix
