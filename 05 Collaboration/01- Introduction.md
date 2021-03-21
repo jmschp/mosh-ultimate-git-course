@@ -1,6 +1,6 @@
 # 01- Introduction
 
-In this section we will go throw:
+In this section we will go through:
 
 1. Collaboration workflows
 2. Pushing, fetching and pulling
