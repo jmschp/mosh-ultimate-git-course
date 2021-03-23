@@ -12,7 +12,44 @@ Rebasing is a destructive operation because it rewrites history.
 
 The `-i` option means we are going to interact with the rebase operation, stop it, make changes, continue it or abort it.
 
-This command will open de default editor with a script, listing all the commits we need to rebase, and instructions to perform the `rebase` operation.
+This command will open de default editor with a script, listing all the commits we need to rebase, and instructions to perform the `rebase` operation. Just like the following example:
+
+```zsh
+pick 8f1440a Add a reference to Google Map SDK.
+pick 098a4bc Render restaurants the map.
+pick 0bf60fe Fix a typo.
+pick dd8f07e Change the color of restaurant icons.
+pick ba55176 Update terms of service and Google Map SDK version.
+pick f820221 WIP
+pick 65dbb96 .
+
+# Rebase 70ef834..65dbb96 onto 70ef834 (7 commands)
+#
+# Commands:
+# p, pick <commit> = use commit
+# r, reword <commit> = use commit, but edit the commit message
+# e, edit <commit> = use commit, but stop for amending
+# s, squash <commit> = use commit, but meld into previous commit
+# f, fixup <commit> = like "squash", but discard this commit's log message
+# x, exec <command> = run command (the rest of the line) using shell
+# b, break = stop here (continue rebase later with 'git rebase --continue')
+# d, drop <commit> = remove commit
+# l, label <label> = label current HEAD with a name
+# t, reset <label> = reset HEAD to a label
+# m, merge [-C <commit> | -c <commit>] <label> [# <oneline>]
+# .       create a merge commit using the original merge commit's
+# .       message (or the oneline, if no original merge commit was
+# .       specified). Use -c <commit> to reword the commit message.
+#
+# These lines can be re-ordered; they are executed from top to bottom.
+#
+# If you remove a line here THAT COMMIT WILL BE LOST.
+#
+# However, if you remove everything, the rebase will be aborted.
+#
+```
+
+After configuring the script the rebase operations starts.
 
 ```zsh
 ❯ git rebase -i 8527033
